@@ -1,0 +1,18 @@
+mkdir /sipwitch_build && cd /sipwitch_build
+
+git clone --branch v1.9.6 https://github.com/dyfet/sipwitch
+cd sipwitch
+
+libtoolize
+aclocal
+./autogen.sh
+autoconf
+automake
+./configure
+make
+make install
+
+# Update library refs
+ldconfig
+
+rm -rf /sipwitch_build

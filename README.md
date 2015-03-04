@@ -1,0 +1,3 @@
+docker_sipwitch
+==========
+An attempt to make sipwitch work in a container...
