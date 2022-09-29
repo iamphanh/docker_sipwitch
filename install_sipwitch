@@ -1,6 +1,6 @@
 mkdir /sipwitch_build && cd /sipwitch_build
 
-git clone --branch v1.9.6 https://github.com/dyfet/sipwitch
+git clone https://github.com/gitGNU/gnu_sipwitch.git
 cd sipwitch
 
 libtoolize
