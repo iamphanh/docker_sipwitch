@@ -1,7 +1,7 @@
 mkdir /sipwitch_build && cd /sipwitch_build
 
-git clone https://github.com/gitGNU/gnu_sipwitch.git
-cd sipwitch
+git clone https://github.com/iamphanh/gnu_sipwitch.git
+cd gnu_sipwitch
 
 libtoolize
 aclocal
@@ -15,4 +15,4 @@ make install
 # Update library refs
 ldconfig
 
-rm -rf /sipwitch_build
+#rm -rf /sipwitch_build
